@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     {
         if (goalReached == GoldManager.GoldGoals.GAME_WINNED)
         {
-            sceneLoader.LoadWinScene();
+            sceneLoader.LoadCreditsScene();
         }
     }
 }

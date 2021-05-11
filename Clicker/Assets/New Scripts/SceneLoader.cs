@@ -3,10 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadWinScene()
-    {
-        SceneManager.LoadScene("WinScreen");
-    }
     public void LoadCreditsScene()
     {
         SceneManager.LoadScene("Credits");
